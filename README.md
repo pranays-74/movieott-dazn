@@ -28,9 +28,10 @@ PORT=3000
 npm start
 
 API Endpoints
-GET /movies: List all movies in the lobby
-GET /movies?q=query: Search for a movie by title or genre
-POST /movies: Add a new movie to the lobby (requires "admin" role)
-PUT /movies/:id: Update an existing movie's information (requires "admin" role)
-DELETE /movies/:id: Delete a movie from the lobby (requires "admin" role)
+
+-GET /movies: List all movies in the lobby
+-GET /movies?q=query: Search for a movie by title or genre
+-POST /movies: Add a new movie to the lobby (requires "admin" role)
+-PUT /movies/:id: Update an existing movie's information (requires "admin" role)
+-DELETE /movies/:id: Delete a movie from the lobby (requires "admin" role)
 
