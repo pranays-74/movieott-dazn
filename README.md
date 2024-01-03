@@ -21,9 +21,12 @@ Before running the application, make sure you have the following installed on yo
 cd movieott-dazn
 npm install
 
-Update in .env by creating new env file outside src and below lines 
+Update in .env by creating new env file outside src and add below lines 
+
+```bash
 MONGO_URI=mongodb://localhost:27017/movie-ott
 PORT=3000
+
 ## Runinng
 npm start
 
