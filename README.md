@@ -23,9 +23,9 @@ npm install
 
 Update in .env by creating new env file outside src and add below lines 
 
-```bash
-MONGO_URI=mongodb://localhost:27017/movie-ott
-PORT=3000
+
+# MONGO_URI=mongodb://localhost:27017/movie-ott
+# PORT=3000
 
 ## Runinng
 npm start
